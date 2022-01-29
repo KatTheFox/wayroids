@@ -2066,50 +2066,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 352137,
-          "name": "The Aurorian",
-          "version": {
-            "id": 3331597,
-            "name": "theaurorian-1.12.2-release-may3021",
-            "metadata": {
-              "sha1": "f953b818ff89a53e48f0f88ddcbbe7c504df8be9",
-              "size": 18710219,
-              "path": "mods/theaurorian-1.12.2-release-may3021.jar",
-              "url": "/mods/352137/3331597/theaurorian-1.12.2-release-may3021.jar"
-            }
-          },
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [
-            {
-              "gameType": "mod",
-              "id": 239197,
-              "dependencyType": "optional"
-            },
-            {
-              "gameType": "mod",
-              "id": 250419,
-              "dependencyType": "optional"
-            },
-            {
-              "gameType": "mod",
-              "id": 74072,
-              "dependencyType": "optional"
-            },
-            {
-              "gameType": "mod",
-              "id": 306770,
-              "dependencyType": "optional"
-            },
-            {
-              "gameType": "mod",
-              "id": 287683,
-              "dependencyType": "optional"
-            }
-          ]
-        },
-        {
-          "stateGameElement": "active",
           "id": 256717,
           "name": "Clumps",
           "version": {
@@ -3396,23 +3352,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 10000010,
-          "name": "MicdoodleCore",
-          "version": {
-            "id": 11001511,
-            "name": "1.12.2-4.0.2.281",
-            "metadata": {
-              "sha1": "5b18c518ca9e1994424b984bb9154020907cdc00",
-              "size": 53300,
-              "path": "mods/MicdoodleCore-1.12.2-4.0.2.281.jar",
-              "url": "/mods/10000010/11001511/MicdoodleCore-1.12.2-4.0.2.281.jar"
-            }
-          },
-          "userInstall": false,
-          "populateStatus": false
-        },
-        {
-          "stateGameElement": "active",
           "id": 10000009,
           "name": "Galacticraft",
           "version": {
@@ -3451,6 +3390,69 @@
           },
           "userInstall": false,
           "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -175482878515849,
+          "name": "ChickenASM-1.12-1.0.2.7",
+          "version": {
+            "id": -175482879224346,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "ed72a18e64a7eb628ec14832a7e02128904cc6f7",
+              "size": 55622,
+              "path": "mods/1.12.2/ChickenASM-1.12-1.0.2.7.jar",
+              "url": "mods/1.12.2/ChickenASM-1.12-1.0.2.7.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 10000010,
+          "name": "MicdoodleCore",
+          "version": {
+            "id": 11000503,
+            "name": "1.12.2-4.0.2.280",
+            "metadata": {
+              "sha1": "906b6088c54a428d7a383796e7b77283cca7e573",
+              "size": 53300,
+              "path": "mods/MicdoodleCore-1.12.2-4.0.2.280.jar",
+              "url": "/mods/10000010/11000503/MicdoodleCore-1.12.2-4.0.2.280.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 10000011,
+          "name": "Galacticraft Planets",
+          "version": {
+            "id": 11000502,
+            "name": "1.12.2-4.0.2.280",
+            "metadata": {
+              "sha1": "327c7efe184f43b091788e15cbbee5409fabf79b",
+              "size": 3975978,
+              "path": "mods/Galacticraft-Planets-1.12.2-4.0.2.280.jar",
+              "url": "/mods/10000011/11000502/Galacticraft-Planets-1.12.2-4.0.2.280.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 10000010,
+              "dependencyType": "required"
+            },
+            {
+              "gameType": "mod",
+              "id": 10000009,
+              "dependencyType": "required"
+            }
+          ]
         }
       ],
       "resourcePacks": [],
