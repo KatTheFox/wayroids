@@ -3451,6 +3451,23 @@
               "dependencyType": "required"
             }
           ]
+        },
+        {
+          "stateGameElement": "active",
+          "id": 61811,
+          "name": "Buildcraft",
+          "version": {
+            "id": 3204475,
+            "name": "buildcraft-all-7.99.24.8",
+            "metadata": {
+              "sha1": "46c7bcb2c81f4786a84f951e7204277c967deb96",
+              "size": 4879732,
+              "path": "mods/buildcraft-all-7.99.24.8.jar",
+              "url": "/mods/61811/3204475/buildcraft-all-7.99.24.8.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
         }
       ],
       "resourcePacks": [],
