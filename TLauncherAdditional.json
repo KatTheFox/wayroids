@@ -2677,23 +2677,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 231347,
-          "name": "Mo' Bends",
-          "version": {
-            "id": 3477335,
-            "name": "1.1.0 for Minecraft 1.12.2",
-            "metadata": {
-              "sha1": "090afea3470a708301589ecb63711d9d72dd7184",
-              "size": 760863,
-              "path": "mods/MoBends_1.12.2-1.1.0-28.09.21.jar",
-              "url": "/mods/231347/3477335/MoBends_1.12.2-1.1.0-28.09.21.jar"
-            }
-          },
-          "userInstall": false,
-          "populateStatus": false
-        },
-        {
-          "stateGameElement": "active",
           "id": 313816,
           "name": "Armor Toughness Bar",
           "version": {
