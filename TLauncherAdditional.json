@@ -2798,23 +2798,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 363543,
-          "name": "DivineRPG (Official)",
-          "version": {
-            "id": 3081433,
-            "name": "DivineRPG-1.7.1",
-            "metadata": {
-              "sha1": "410ea6a1eb52946ae0781b49a8ed1b82e84bdf30",
-              "size": 18732935,
-              "path": "mods/DivineRPG-1.7.1.jar",
-              "url": "/mods/363543/3081433/DivineRPG-1.7.1.jar"
-            }
-          },
-          "userInstall": false,
-          "populateStatus": false
-        },
-        {
-          "stateGameElement": "active",
           "id": 225643,
           "name": "Botania",
           "version": {
@@ -3490,6 +3473,23 @@
               "dependencyType": "required"
             }
           ]
+        },
+        {
+          "stateGameElement": "active",
+          "id": 258914,
+          "name": "The Weirding Gadget",
+          "version": {
+            "id": 2708729,
+            "name": "weirdinggadget-1.12.2-2.1.16-universal",
+            "metadata": {
+              "sha1": "b21a3cbb5bcecac448c471a438c17febe8d1f953",
+              "size": 181054,
+              "path": "mods/weirdinggadget-1.12.2-2.1.16-universal.jar",
+              "url": "/mods/258914/2708729/weirdinggadget-1.12.2-2.1.16-universal.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
         }
       ],
       "resourcePacks": [],
