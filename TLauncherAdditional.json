@@ -2500,47 +2500,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 222838,
-          "name": "Headcrumbs",
-          "version": {
-            "id": 2645020,
-            "name": "1.12.2-2.0.5",
-            "metadata": {
-              "sha1": "0b2816a609e13b43cbb3a94188d3fd73cbdfa99e",
-              "size": 312837,
-              "path": "mods/Headcrumbs-1.12.2-2.0.5.17.jar",
-              "url": "/mods/222838/2645020/Headcrumbs-1.12.2-2.0.5.17.jar"
-            }
-          },
-          "userInstall": false,
-          "populateStatus": false
-        },
-        {
-          "stateGameElement": "active",
-          "id": 242890,
-          "name": "WitherCrumbs",
-          "version": {
-            "id": 2644853,
-            "name": "1.12.2-0",
-            "metadata": {
-              "sha1": "24dd12c5238be091bcfe9fe88e5f64609c65eace",
-              "size": 32926,
-              "path": "mods/witherCrumbs-1.12.2-0.11.jar",
-              "url": "/mods/242890/2644853/witherCrumbs-1.12.2-0.11.jar"
-            }
-          },
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [
-            {
-              "gameType": "mod",
-              "id": 222838,
-              "dependencyType": "required"
-            }
-          ]
-        },
-        {
-          "stateGameElement": "active",
           "id": 289466,
           "name": "Progressive Bosses",
           "version": {
@@ -2944,30 +2903,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 264231,
-          "name": "Ice and Fire Dragons",
-          "version": {
-            "id": 2939529,
-            "name": "iceandfire-1.9.1-1.12.2",
-            "metadata": {
-              "sha1": "4bf427fe3dcf8b7c30ce64ca1b61550037ff60ec",
-              "size": 20467820,
-              "path": "mods/iceandfire-1.9.1-1.12.2.jar",
-              "url": "/mods/264231/2939529/iceandfire-1.9.1-1.12.2.jar"
-            }
-          },
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [
-            {
-              "gameType": "mod",
-              "id": 331936,
-              "dependencyType": "required"
-            }
-          ]
-        },
-        {
-          "stateGameElement": "active",
           "id": 229046,
           "name": "Project Red - Illumination",
           "version": {
@@ -3236,35 +3171,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 75598,
-          "name": "Thaumic Tinkerer",
-          "version": {
-            "id": 2957213,
-            "name": "1.12.2 5.0 BETA1.3",
-            "metadata": {
-              "sha1": "a1aa3c6d895539c2d4cb8413ac1f54dddb4aff0f",
-              "size": 1884011,
-              "path": "mods/thaumictinkerer-1.12.2-5.0-620a0c5.jar",
-              "url": "/mods/75598/2957213/thaumictinkerer-1.12.2-5.0-620a0c5.jar"
-            }
-          },
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [
-            {
-              "gameType": "mod",
-              "id": 223628,
-              "dependencyType": "required"
-            },
-            {
-              "gameType": "mod",
-              "id": 222213,
-              "dependencyType": "required"
-            }
-          ]
-        },
-        {
-          "stateGameElement": "active",
           "id": 285492,
           "name": "Thaumic JEI",
           "version": {
@@ -3450,6 +3356,137 @@
             {
               "gameType": "mod",
               "id": 10000009,
+              "dependencyType": "required"
+            }
+          ]
+        },
+        {
+          "stateGameElement": "active",
+          "id": 377201,
+          "name": "TickCentral",
+          "version": {
+            "id": 3140670,
+            "name": "3.2",
+            "metadata": {
+              "sha1": "79bcdbd58175111c7541a08e8d512ba6bf6ceb93",
+              "size": 53554,
+              "path": "mods/TickCentral-3.2.jar",
+              "url": "/mods/377201/3140670/TickCentral-3.2.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 283525,
+          "name": "LagGoggles",
+          "version": {
+            "id": 2947622,
+            "name": "1.12.2-5.8-132",
+            "metadata": {
+              "sha1": "37ed9cf32bb3d0b3ae8e746cc10bb137cfe9fd3c",
+              "size": 182688,
+              "path": "mods/LagGoggles-1.12.2-5.8-132.jar",
+              "url": "/mods/283525/2947622/LagGoggles-1.12.2-5.8-132.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 301913,
+              "dependencyType": "incompatible"
+            },
+            {
+              "gameType": "mod",
+              "id": 377201,
+              "dependencyType": "required"
+            }
+          ]
+        },
+        {
+          "stateGameElement": "active",
+          "id": 282940,
+          "name": "Mystical World",
+          "version": {
+            "id": 3460961,
+            "name": "mysticalworld-1.12.2-1.11.0",
+            "metadata": {
+              "sha1": "2c553879a5399c0ecbd6d66ab2f2295ecc8deb89",
+              "size": 2367049,
+              "path": "mods/mysticalworld-1.12.2-1.11.0.jar",
+              "url": "/mods/282940/3460961/mysticalworld-1.12.2-1.11.0.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 306770,
+              "dependencyType": "required"
+            }
+          ]
+        },
+        {
+          "stateGameElement": "active",
+          "id": 277064,
+          "name": "MysticalLib",
+          "version": {
+            "id": 3483816,
+            "name": "mysticallib-1.12.2-1.13.0",
+            "metadata": {
+              "sha1": "015d2d3768a3937e64af8bd93b59436603ad790d",
+              "size": 426226,
+              "path": "mods/mysticallib-1.12.2-1.13.0.jar",
+              "url": "/mods/277064/3483816/mysticallib-1.12.2-1.13.0.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 246183,
+          "name": "Roots",
+          "version": {
+            "id": 3484394,
+            "name": "1.12.2-3.1.4",
+            "metadata": {
+              "sha1": "bde6468430295c407295152a3155bf6460a28a93",
+              "size": 3597510,
+              "path": "mods/Roots-1.12.2-3.1.4.jar",
+              "url": "/mods/246183/3484394/Roots-1.12.2-3.1.4.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 227083,
+              "dependencyType": "optional"
+            },
+            {
+              "gameType": "mod",
+              "id": 240630,
+              "dependencyType": "optional"
+            },
+            {
+              "gameType": "mod",
+              "id": 282940,
+              "dependencyType": "required"
+            },
+            {
+              "gameType": "mod",
+              "id": 277064,
+              "dependencyType": "required"
+            },
+            {
+              "gameType": "mod",
+              "id": 306770,
               "dependencyType": "required"
             }
           ]
